@@ -1,0 +1,124 @@
+
+    /* Add this CSS to style your links */
+    a {
+        text-decoration: none; /* Remove underline */
+        color: black; /* Make the text color black (invisible) */
+    }
+    
+    /* Style visited links */
+    a:visited {
+        color: black; /* Make visited links invisible */
+    }
+    
+    /* Style links on hover */
+    a:hover {
+        text-decoration: none; /* Remove underline on hover */
+        color: black; /* Make the text color black on hover */
+    }
+    
+    /* Style links on focus (for keyboard navigation) */
+    a:focus {
+        text-decoration: none; /* Remove underline on focus */
+        color: black; /* Make the text color black on focus */
+    }
+    
+    
+    
+            /* Styling for the navbar */
+          .texto{
+            color: white;
+          }
+            .section {
+                background-color: #333;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                height: 500px;
+            }
+    
+            .section.left {
+                float: left;
+                width: 30%; /* Adjust the width as needed */
+            }
+    
+            .section.center {
+                display: inline-block;
+                width: 30%; /* Adjust the width as needed */
+            }
+    
+            .section.right {
+                float: right;
+                width: 30%; /* Adjust the width as needed */
+            }
+    
+    
+            img {
+                width: 150px;
+                height: 150px;
+                display: block; /* Ensures the image is a block element */
+                margin: 0 auto; /* Centers the image horizontally in its container */
+            }
+    
+            body{
+                background-color: #3d3d3d;
+            }
+            .navbar {
+                background-color: #333;
+                overflow: hidden;
+            }
+    
+            .navbar a {
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+    
+            .navbar a.logo {
+                float: left;
+                font-size: 24px;
+                font-weight: bold;
+            }
+    
+            .navbar .menu {
+                float: right;
+            }
+    
+            .navbar .menu a {
+                display: inline-block;
+                margin-left: 20px;
+            }
+    
+            .navbar a.search {
+                float: right;
+            }
+    
+            .navbar .payment {
+                float: right;
+                font-size: 20px;
+                margin-right: 20px;
+            }
+    
+            /* Styling for the grid */
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr); /* Create 5 columns in one row */
+                gap: 20px; /* Add some spacing between columns */
+                margin: 20px auto; /* Center the grid horizontally */
+                max-width: 1000px; /* Set a maximum width for the grid */
+            }
+    
+            .grid-item {
+                background-color: #f0f0f0;
+                padding: 20px;
+                text-align: center;
+                border: 1px solid #ccc;
+                border-radius: 10px; /* Add border-radius to shape the grid items */
+                box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+            }
+            
+            .grid-item h3, .grid-item p {
+                margin: 10px 0; /* Add spacing to headings and paragraphs */
+            }
+        
